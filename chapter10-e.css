@@ -64,3 +64,44 @@ footer {
   height: 50px;
   background-color: #aaa;
 }
+
+@media screen and (max-width: 768px){
+ /*ここに特定サイズのCSSを記載*/
+ header {
+    width: 100%;
+  }
+ main {
+    width: 100%;
+    margin: 50px auto;
+    display: block;
+  }
+  .step-box {
+  width: 90%;
+  padding: 10px;
+  margin: 20px auto;
+  position: relative;
+  }
+  .step-box:last-child {
+  width: 90%;
+  padding: 10px;
+  margin: 20px auto;
+  position: relative;
+}
+.step-img1 {
+  height: 150px;
+
+}
+
+.step-img2 {
+  height: 150px;
+
+}
+
+.step-img3 {
+  height: 150px;
+
+}
+
+
+
+}
